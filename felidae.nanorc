@@ -22,7 +22,7 @@ color brightblue "\<(array|comparison|console|csv|db|exception|fact|fact_analysi
 color brightcyan "\<(any|array|bool|boolean|decimal|double|float|int|number|string)\>"
 
 # Control keywords.
-color brightyellow "\<(extend|where|if|else|return|lambda|then|import)\>"
+color brightyellow "\<(class|end|extend|where|if|else|return|lambda|then|import)\>"
 
 # Constants.
 color brightred "\<(nil|true|false)\>"
