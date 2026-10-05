@@ -22,7 +22,13 @@ color brightblue "\<(array|comparison|console|csv|db|exception|fact|fact_analysi
 color brightcyan "\<(any|array|bool|boolean|decimal|double|float|int|number|string)\>"
 
 # Control keywords.
-color brightyellow "\<(class|end|extend|where|if|else|return|lambda|then|import)\>"
+color brightyellow "\<(def|class|extend|extends|index|where|if|else|then|for|in|while|switch|case|default|break|continue|try|catch|new|this|super|lambda|import)\>"
+
+# Block terminator, styled apart so closers stand out among nested blocks.
+color brightmagenta,bold "\<end\>"
+
+# Quoted data atoms.
+color brightred "'[^']*'"
 
 # Constants.
 color brightred "\<(nil|true|false)\>"
